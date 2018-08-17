@@ -1,0 +1,133 @@
+/*-----------------------------
+	Window Size : 991px;
+-----------------------------*/
+@media (max-width: 991px) {
+	.main-menu ul li {
+	    margin-right: 16px;
+	}
+	.why-border {
+	    display: none;
+	}
+	.why-choose-left {
+	    text-align: center;
+	}
+	.blog-box {
+	    margin-bottom: 40px;
+	}
+	.google-map {
+	    margin-top: 40px;
+	}
+	.pagination,
+	.leave-a-comment.col-md-12,
+	.about-text {
+	    margin-bottom: 70px;
+	}
+	.pricing .col-md-4.col-sm-10.wow.fadeInLeft {
+	    margin-left: 10%;
+	}
+}
+
+/*-----------------------------
+	Window Size : 840px;
+-----------------------------*/
+@media (max-width: 840px) {
+	.header-main-content h1 {
+		font-size: 35px;
+	}
+}
+
+/*-----------------------------
+	Window Size : 767px;
+-----------------------------*/
+@media (max-width: 767px) {
+	.item-content::after {
+	    position: absolute;
+	    content: '';
+	    width: 20px;
+	    height: 20px;
+	    border-right: 20px solid transparent;
+	    border-radius: 20px solid rgba(0,0,0,.7);
+	    border-top: 20px solid transparent;
+	    border-left: 20px solid transparent;
+	    right: 50%;
+	    top: -40px;
+	    border-bottom: 20px solid #000;
+	    margin-right: -20px;
+	}
+	#testimonial .item-img {
+	    margin: auto;
+	    margin-bottom: 35px;
+	}
+	.footer-top h3 {
+	    margin-top: 28px;
+	}	
+	.slicknav_menu {
+		display:block;
+	}
+	.main-menu ul {
+		display: none;
+	}
+}
+
+/*-----------------------------
+	Window Size : 550px;
+-----------------------------*/
+@media (max-width: 550px) {
+	.img.blog-image img {
+	    width: 100%;
+	}
+}
+
+/*-----------------------------
+	Window Size : 420px;
+-----------------------------*/
+@media (max-width: 420px) {
+	.header-btn-1.hvr-rectangle-out {
+	    display: block;
+	    margin-bottom: 20px;
+	}
+	.header-main-content h1 {
+	    font-size: 30px;
+	}
+	.clinic-inside-menu button {
+	    margin-bottom: 18px;
+	    display: block;
+	    background: #ccc;
+	    width: 100%;
+	    margin-left: 0;
+	    padding: 10px 0;
+	    cursor: pointer;
+	}
+	.section-header h2 {
+		font-size: 28px;
+	}
+}
+
+/*-----------------------------
+	Window Size : 395px;
+-----------------------------*/
+@media (max-width: 395px) {
+	.why-choose-left img {
+	    width: 100%;
+	}
+	.section-header h2 {
+		font-size:22px;
+	}
+	.section-header p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.section-header h2::before {
+	    top: 36px;
+	    left: 50%;
+	    margin-left: -10px;
+	}
+	.section-header h2::after {
+	    left: 50%;
+	    top: 45px;
+	    margin-left: -40px;
+	}
+}
+
+
+

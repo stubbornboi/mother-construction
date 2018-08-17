@@ -1,0 +1,334 @@
+.my-page-header {
+    background: url('../image/slider/slider-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    background-attachment: fixed;
+}
+.my-page-header:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0;
+    opacity: .6;
+    left: 0;
+    z-index: -1;
+}
+.my-page-header h2 {
+	margin-top: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.main-blog .blog-box {
+    margin-bottom: 50px;
+}
+
+/*
+	Blog SideBar
+*/
+.blog-about img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #FAC200;
+}
+.blog-about .blog-about-name h4 {
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.blog-about .blog-about-name p {
+    color: #315177;
+    line-height: 23px;
+}
+.sidebar-row {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f3ecec;
+    padding-bottom: 20px;
+}
+.sidebar-heading p {
+    font-size: 12px;
+    position: relative;
+    text-transform: uppercase;
+}
+.sidebar-heading {
+    margin-bottom: 20px;
+}
+.sidebar-heading p:after {
+    width: 40px;
+    height: 1px;
+    content: '';
+    position: absolute;
+    background: #FAC200;
+    bottom: -4px;
+    left: 0;
+}
+.search-box .input-group .btn.btn-default {
+    background: #FAC200;
+    color: #fff;
+    border-color: transparent;
+    transition: .3s;
+    padding: 6px 15px;
+}
+.search-box .input-group .btn.btn-default:hover {
+    background: #fff;
+    color: #FAC200;
+    border: 1px solid #FAC200;
+}
+/*
+    Recent Post
+*/
+.recent-colam-left.img {
+    width: 64;
+    height: 65px;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.recent-colam-left.img img {
+    height: 100%;
+}
+.recent-colam-right {
+    width: 73%;
+    overflow: hidden;
+}
+.recent-colam-right a {
+    line-height: 22px;
+    color: #d3ad59;
+    text-decoration: none;
+}
+.recent-colam-right .date {
+    color: #ceb4b4;
+}
+.recent-blog .row {
+    margin-top: 30px;
+}
+.important-tag ul li a {
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 4px 18px;
+    display: inline-block;
+    color: #d3ad59;
+}
+.important-tag ul li {
+    float: left;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+.sidebar-row.important-tag {
+    border: none;
+}
+
+/*
+    Single Page
+*/
+.blog-box.single-blog .img {
+    height: 380px;
+}
+.single-blog .blog-text {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+blockquote, q {
+    quotes: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+    -ms-hyphens: none;
+    border-left: none;
+}
+blockquote {
+    position: relative;
+    margin-top: 20px;
+    padding-left: 45px;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    color: #ccc;
+    font-size: 18px;
+}
+blockquote::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 51px;
+    height: 34px;
+    content: '';
+    background-image: url("../image/quote.svg");
+    background-repeat: no-repeat;
+}
+.like-comment ul li {
+    float: left;
+    margin-right: 24px;
+}
+.like-comment ul li a {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.like-comment {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.like-comment ul li a i {
+    margin-right: 10px;
+    color: #FAC200;
+}
+/*
+    Share Icon
+*/
+.share-icon ul li {
+    float: left;
+    margin-right: 16px;
+}
+.share-icon ul li a {
+    border: 1px solid #FAC200;
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+    display: inline-block;
+    line-height: 0;
+    border-radius: 50%;
+    text-align: center;
+    transition: .3s;
+    outline: none;
+    color: #FAC200;
+}
+.share-icon {
+    margin-top: 50px;
+    border-bottom: 1px solid #f4eded;
+    padding-bottom: 60px;
+}
+.share-icon ul li a:hover {
+    color: #fff;
+    background: #FAC200;
+}
+
+/*
+    Comment
+*/
+.comment .comment-title {
+    margin-top: 50px;
+    font-family: 'Raleway-SemiBold';
+    font-size: 18px;
+    color: #272e4c;
+    margin-bottom: 12px;
+}
+.comment .media-heading {
+    font-size: 16px;
+    font-family: 'Raleway-SemiBold';
+    color: #272e4c;
+}
+.comment .date {
+    font-family: 'Raleway-Regular';
+    color: #c2c2c2;
+    margin-bottom: 16px;
+}
+.comment .comment-details {
+    line-height: 26px;
+    font-family: 'Raleway-Regular';
+    color: #315177;
+    font-size: 14px;
+}
+.comment .media {
+    padding-top: 50px;
+}
+.comment .comment-box {
+    border-top: 1px solid #efefef;
+}
+.comment .comment-reply a {
+    font-family: 'Raleway-SemiBold';
+    color: #272e4c;
+    font-size: 14px;
+    margin-top: 18px;
+    display: inline-block;
+}
+
+/*
+    Comment Form
+*/
+.comment-form input,.comment-form textarea {
+    border: 1px solid #efefef;
+    border-radius: 0;
+    outline: none;
+    margin-bottom: 26px;
+    padding-left: 30px;
+    color: #999999;
+    font-family: 'Raleway-Regular';
+}
+.comment-form input {
+    height: 35px;
+}
+.comment-form textarea {
+    height: 130px;
+    padding-top: 15px;
+}
+.comment-form input[type='submit'] {
+    padding: 0 28px;
+    border: none;
+    background: #FAC200;
+    color: #fff;
+    font-family: 'Raleway-Bold';
+    font-size: 16px;
+    height: 36px;
+    transition: .3s;
+}
+.comment-form input[type='submit']:hover {
+    color: #FAC200;
+    border: 1px solid #FAC200;
+    background: transparent;
+}
+.leave-comment-heading {
+    font-family: 'Raleway-SemiBold';
+    font-size: 18px;
+    color: #272e4c;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 12px;
+    margin-bottom: 50px;
+}
+.comment-form.row {
+    margin-top: 100px;
+}
+
+/*
+    404 Page
+*/
+.error h1 {
+    font-size: 60px;
+    color: #FAC200;
+    font-weight: 700;
+}
+.error .btn a {
+    background: #FAC200;
+    font-weight: 600;
+    transition: .5s;
+}
+.error .btn a:hover {
+    border: 1px solid #FAC200;
+    background: transparent;
+    color: #FAC200;
+}
+.error h2 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+/*
+    Fix
+*/
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus {
+    background-color: #FAC200;
+    border-color: #FAC200;
+}
